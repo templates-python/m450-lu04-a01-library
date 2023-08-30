@@ -109,9 +109,9 @@ class Library:
         self._booklist = value
 
     @property
-    def customer(self):
-        return self._customer
+    def customers(self):
+        return self._customers
 
-    @customer.setter
+    @customers.setter
     def customer(self, value):
-        self._customer = value
+        self._customers = value
