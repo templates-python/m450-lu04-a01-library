@@ -12,6 +12,10 @@ class Book:
     location: str = field(init=False)  # will be assigned by the librarian
 
     def __post_init__(self):
+        if isinstance(self.title, property):
+            raise TypeError('__init__() missing required argument: "title"')
+        if isinstance(self.isbn, property):
+            raise TypeError('__init__() missing required argument: "isbn"')
         self.location = None
         
     @property
