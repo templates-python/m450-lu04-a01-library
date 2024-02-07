@@ -10,8 +10,8 @@ class Library:
         """
         default constructor
         """
-        self.booklist = []
-        self.customers = []
+        self._booklist = []
+        self._customers = []
 
     def print_inventory(self):
         """
