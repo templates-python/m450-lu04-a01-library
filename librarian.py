@@ -12,8 +12,8 @@ class Librarian:
         :param name: fullname of the librarian
         :param library: the library he manages
         """
-        self.name = name
-        self.library = library
+        self._name = name
+        self._library = library
 
     def buy_new_book(self, title, isbn):
         """

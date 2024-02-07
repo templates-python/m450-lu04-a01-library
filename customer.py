@@ -14,10 +14,10 @@ class Customer:
         :param librarian:
         :param library:
         """
-        self.name = name
-        self.reminded = False
-        self.librarian = librarian
-        self.book = None
+        self._name = name
+        self._reminded = False
+        self._librarian = librarian
+        self._book = None
         library.add_customer(self)
 
     def print(self):
