@@ -1,0 +1,10 @@
+{
+  "files": [
+    "test_book.py",
+    "test_customer.py",
+    "test_library.py",
+    "test_librarian.py"
+  ],
+  "ignore": [],
+  "max": 3
+}
